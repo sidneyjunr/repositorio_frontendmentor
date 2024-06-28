@@ -1,0 +1,89 @@
+@import './reset.css';
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;
+    line-height: 150%;
+    gap: 20px;
+}
+h2{
+    font-size: 14px;
+    color: black;
+    width: 143px;
+    height: 21px;
+}
+p{
+    color: #7F7F7F;
+
+}
+.foto_de_perfil{
+    width: 32px;
+    height: 32px;
+}
+.papel_de_parede{
+    height: 200px;
+    border-radius: 10px;
+}
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    width: 384px;
+    height: 522px;
+    background: hsl(0, 0%, 100%);
+    box-sizing: border-box;
+    padding: 24px;
+    gap: 24px;
+    border-radius: 20px;
+    border: 1px inset black;
+    box-shadow: 8px 8px 0px black;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    height: 194px;
+}
+.botao_amarelo{
+    background-color: hsl(47, 88%, 63%);
+    box-sizing: border-box;
+    padding:4px 12px ;
+    height: 29px;
+    width: 82px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    
+}
+
+
+
+.perfil{
+    display: flex;
+    align-items: center;
+    width: 129px;
+    gap: 12px;
+}
+.conteudo h1{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 6px 0px;
+}
+.conteudo h1:hover{
+    color: #F4D04E;
+    cursor: pointer;
+}
+.nome{
+    font-weight: bold;
+    width: 129px;
+    height: 21px;
+    font-weight: 14px;
+    white-space: nowrap;
+}
