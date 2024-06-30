@@ -3,3 +3,17 @@ img{
     width: 250px;
 
 }
+.container{
+    display: flex;
+    
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.projetos{
+    display: flex;
+}

@@ -1,0 +1,99 @@
+@import './reset.css';
+
+
+
+body{
+    background-color: hsl(275, 100%, 97%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+    height: 100vh;
+    gap: 50px;
+    position: relative;
+    font-family: "Work Sans", sans-serif;
+    color: hsl(292, 42%, 14%);
+    line-height: 150%;
+}
+.papel_de_parede{
+    position: absolute;
+    width: 100%;
+    height: 320px;
+    top: 0;
+    left: 0;
+    background-image: url('../assets/images/background-pattern-desktop.svg');
+    background-size: cover; /* Cobrir a largura total mantendo a proporção */
+    background-position: center; /* Centralizar a imagem */
+    background-repeat: no-repeat; /* Não repetir a imagem */
+}
+
+.container{
+    background-color: hsl(0, 0%, 100%);
+    max-width: 600px;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 40px 40px 0px 40px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 100px rgba(0, 0, 0, 0.2);
+
+}
+
+.titulo{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 55px;
+    margin-top:15px;
+}
+.titulo h1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+
+
+
+.attribution {
+    font-size: 11px; 
+    text-align: center;
+    background-color: hsl(275, 100%, 97%);
+    position: absolute;
+    bottom: 0;
+    
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+dt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 1.125rem;
+
+}
+dt:hover{
+    color: #AD28EB;
+    cursor: pointer;
+}
+
+dd{ 
+    color: hsl(292, 16%, 49%);
+    margin-top: 25px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    height: 0;
+    transition: height 0.5s ease;
+    
+}
+.ativo{
+    padding-bottom: 10px;
+}
+
+
+@media(max-width:420px){
+    .container{
+        max-width: 370px;
+    }
+}
